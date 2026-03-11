@@ -11,7 +11,7 @@ const redirectUrl =
         : import.meta.env.VITE_FRONT_URL;
 const authInfo = {
     kakao: `https://kauth.kakao.com/oauth/authorize?client_id=aa86e98a5ed228c3cdc6607913293c2e&redirect_uri=${redirectUrl}/login&response_type=code`,
-    google: `https://accounts.google.com/o/oauth2/v2/auth?client_id=457079463805-msvl2bh4v77e8odtf924sbc2trrn8338.apps.googleusercontent.com&redirect_uri=${redirectUrl}/login&response_type=code&scope=https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email`,
+    google: `https://accounts.google.com/o/oauth2/v2/auth?client_id=534038006561-hs2jdtce7csnbqvqca4hpmg32j6j8hai.apps.googleusercontent.com&redirect_uri=${redirectUrl}/login&response_type=code&scope=https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email`,
     naver: `https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=e9ePxNUxjz6dgFiyrxta&redirect_uri=${redirectUrl}/login&state=1234`,
 };
 
